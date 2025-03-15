@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "This is Hello React by Adarsh",
   "main": "App.js",
+  "homepage": "https://giriadarsh2.github.io/the-green-heaven",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --public-url ./",
+    "deploy": "gh-pages -d dist",
     "test": "jest"
   },
   "keywords": [
@@ -15,6 +17,7 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.13.3",
+    "parcel-reporter-static-files-copy": "^1.5.3",
     "process": "^0.11.10"
   },
   "dependencies": {
@@ -22,6 +25,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^6.11.2",
-    "tailwindcss": "^4.0.13"
+    "tailwindcss": "^4.0.13",
+    "gh-pages": "^5.0.0"
   }
 }
