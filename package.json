@@ -2,7 +2,7 @@
   "name": "hello-react",
   "version": "1.0.0",
   "description": "This is Hello React by Adarsh",
-  "main": "App.js",
+  "main": "index.html",
   "homepage": "https://giriadarsh2.github.io/the-green-heaven",
   "scripts": {
     "start": "parcel index.html",
