@@ -1,0 +1,13 @@
+# Node.js & Parcel
+node_modules
+dist
+.cache
+.parcel-cache
+
+# MacOS System Files
+.DS_Store
+
+# Editor Configs
+.prettierrc
+.vscode/
+.idea/
