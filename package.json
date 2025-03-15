@@ -16,6 +16,7 @@
   "author": "Adarsh",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "^2.13.3",
     "parcel-reporter-static-files-copy": "^1.5.3",
     "process": "^0.11.10"
@@ -25,7 +26,6 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^6.11.2",
-    "tailwindcss": "^4.0.13",
-    "gh-pages": "^5.0.0"
+    "tailwindcss": "^4.0.13"
   }
 }
