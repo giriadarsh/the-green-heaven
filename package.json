@@ -5,7 +5,7 @@
   "homepage": "https://giriadarsh.github.io/the-green-heaven",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --public-url ./",
+    "build": "parcel build index.html --public-url /the-green-heaven/",
     "deploy": "gh-pages -d dist",
     "test": "jest"
   },
