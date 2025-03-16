@@ -2,7 +2,7 @@
   "name": "hello-react",
   "version": "1.0.0",
   "description": "This is Hello React by Adarsh",
-  "homepage": "https://giriadarsh2.github.io/the-green-heaven",
+  "homepage": "https://giriadarsh.github.io/the-green-heaven",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --public-url ./",
