@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./src/components/Header";
 import Body from "./src/components/Body";
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { createHashRouter, RouterProvider, Outlet } from "react-router-dom";
 import About from "./src/components/About";
 import Contact from "./src/components/Contact";
 import ErrorComponent from "./src/components/ErrorComponent";
@@ -21,7 +21,7 @@ const AppLayout = () => {
     );
 };
 
-const appRouter = createBrowserRouter([
+const appRouter = createHashRouter([
     {
         path: "/",
         element: <AppLayout />,
