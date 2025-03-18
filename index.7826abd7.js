@@ -26198,119 +26198,43 @@ const items = [
         id: 1,
         name: "Coconut Laddu",
         image: (0, _coconutLadduJpegDefault.default),
-        description: {
-            ingredients: [
-                "Dry coconut, almonds, walnuts, raisins, peanut seeds, jaggery, makhana, cashews, pumpkin seeds, sunflower seeds, cardamom, khaskhas, and Amul ghee."
-            ],
-            features: [
-                "No added flavor or sugar.",
-                "No preservatives.",
-                "Prepared under full hygiene.",
-                "Completely pure and healthy.",
-                "All ingredients are natural and delicious."
-            ]
-        }
+        shortDescription: "A delicious coconut-based sweet."
     },
     {
         id: 2,
         name: "Dry Fruits Laddu",
         image: (0, _dryFruitsLadduJpegDefault.default),
-        description: {
-            ingredients: [
-                "Almonds, dates, walnuts, cashews, raisins, coconut, pumpkin seeds, sunflower seeds, watermelon seeds, cucumber seeds, makhana, khaskhas, cardamom, pistachios, and Amul ghee.",
-                "All ingredients are fried in ghee, then crushed and made into laddu."
-            ],
-            features: [
-                "Completely pure and healthy.",
-                "All dry fruits used are natural and delicious.",
-                "The use of Amul ghee gives this laddu a special flavor and aroma.",
-                "An ideal sweet treat that will take your taste buds to a new level."
-            ]
-        }
+        shortDescription: "Laddu packed with nutritious dry fruits."
     },
     {
         id: 3,
         name: "Gond Laddu",
         image: (0, _gondLadduJpegDefault.default),
-        description: {
-            ingredients: [
-                "Gond, walnuts, cashews, makhana, coconut burada, almonds, raisins, khaskhas, magaj seeds, watermelon seeds, sunflower seeds, pumpkin seeds, cardamom powder, ginger powder, wheat flour, gram flour, Amul ghee, and jaggery."
-            ],
-            features: [
-                "No added flavor or sugar.",
-                "No preservatives.",
-                "Prepared under full hygiene.",
-                "Completely pure and healthy.",
-                "All ingredients are natural and delicious."
-            ]
-        }
+        shortDescription: "Traditional winter delicacy made with edible gum."
     },
     {
         id: 4,
         name: "Mawa Gujiya",
         image: (0, _mawaGujiyaJpegDefault.default),
-        description: {
-            ingredients: [
-                "Homemade khoya, dry fruits, minimal sugar.",
-                "Fried in branded refined oil, giving it a crispy and golden color."
-            ],
-            features: [
-                "Each piece is wrapped by hand, not by machine, providing a personal touch.",
-                "No added flavor or color, making it natural and healthy.",
-                "No preservatives, making it fresh and safe.",
-                "Prepared under full hygiene."
-            ]
-        }
+        shortDescription: "A crispy, sweet dumpling filled with mawa and dry fruits."
     },
     {
         id: 5,
         name: "Methi Mathri",
         image: (0, _methiMathriJpegDefault.default),
-        description: {
-            ingredients: [
-                "Fenugreek, wheat flour, and traditional Indian spices."
-            ],
-            features: [
-                "Crispy and savory snack.",
-                "Perfect with tea or as a festive treat.",
-                "Handmade with care.",
-                "No preservatives."
-            ]
-        }
+        shortDescription: "Savory and crispy fenugreek-flavored mathri."
     },
     {
         id: 6,
         name: "Mirch Achaar",
         image: (0, _mirchAchaarJpegDefault.default),
-        description: {
-            ingredients: [
-                "Yellow mustard seeds, coriander, cumin, fenugreek, ajwain, mangrail, fennel, amchur powder, black salt, mustard oil."
-            ],
-            features: [
-                "Pure recipe from Grandma\u2019s kitchen.",
-                "Full of traditional Indian flavor.",
-                "No added flavor or color.",
-                "No preservatives.",
-                "Prepared under full hygiene."
-            ]
-        }
+        shortDescription: "Spicy and tangy chili pickle."
     },
     {
         id: 7,
         name: "Murmure Laddu",
         image: (0, _murmureLadduJpegDefault.default),
-        description: {
-            ingredients: [
-                "Jaggery, murmure (puffed rice), sesame seeds, ginger powder."
-            ],
-            features: [
-                "Prepared by traditional method.",
-                "No added flavor, color, or sugar.",
-                "No preservatives.",
-                "Prepared with proper hygiene.",
-                "Completely pure and healthy."
-            ]
-        }
+        shortDescription: "Puffed rice laddu with jaggery."
     }
 ];
 function FestiveSweets() {
@@ -26322,7 +26246,7 @@ function FestiveSweets() {
                 children: "The Green Heaven"
             }, void 0, false, {
                 fileName: "src/components/Body.js",
-                lineNumber: 135,
+                lineNumber: 24,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -26337,7 +26261,7 @@ function FestiveSweets() {
                                 className: "w-full h-64 object-cover"
                             }, void 0, false, {
                                 fileName: "src/components/Body.js",
-                                lineNumber: 144,
+                                lineNumber: 33,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -26348,69 +26272,15 @@ function FestiveSweets() {
                                         children: item.name
                                     }, void 0, false, {
                                         fileName: "src/components/Body.js",
-                                        lineNumber: 147,
+                                        lineNumber: 36,
                                         columnNumber: 15
                                     }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "mt-4",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                className: "text-lg font-bold text-green-600",
-                                                children: "Ingredients:"
-                                            }, void 0, false, {
-                                                fileName: "src/components/Body.js",
-                                                lineNumber: 150,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                                className: "list-disc list-inside text-gray-700 text-sm mt-2",
-                                                children: item.description.ingredients.map((ing, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: ing
-                                                    }, index, false, {
-                                                        fileName: "src/components/Body.js",
-                                                        lineNumber: 153,
-                                                        columnNumber: 21
-                                                    }, this))
-                                            }, void 0, false, {
-                                                fileName: "src/components/Body.js",
-                                                lineNumber: 151,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "text-gray-600 mt-2",
+                                        children: item.shortDescription
+                                    }, void 0, false, {
                                         fileName: "src/components/Body.js",
-                                        lineNumber: 149,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                        className: "mt-4",
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                                className: "text-lg font-bold text-green-600",
-                                                children: "Features:"
-                                            }, void 0, false, {
-                                                fileName: "src/components/Body.js",
-                                                lineNumber: 159,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                                                className: "list-disc list-inside text-gray-700 text-sm mt-2",
-                                                children: item.description.features.map((feature, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                                        children: feature
-                                                    }, index, false, {
-                                                        fileName: "src/components/Body.js",
-                                                        lineNumber: 162,
-                                                        columnNumber: 21
-                                                    }, this))
-                                            }, void 0, false, {
-                                                fileName: "src/components/Body.js",
-                                                lineNumber: 160,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/components/Body.js",
-                                        lineNumber: 158,
+                                        lineNumber: 37,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -26420,35 +26290,35 @@ function FestiveSweets() {
                                             children: "View Details"
                                         }, void 0, false, {
                                             fileName: "src/components/Body.js",
-                                            lineNumber: 168,
+                                            lineNumber: 40,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/components/Body.js",
-                                        lineNumber: 167,
+                                        lineNumber: 39,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/components/Body.js",
-                                lineNumber: 146,
+                                lineNumber: 35,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, item.id, true, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 139,
+                        lineNumber: 28,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "src/components/Body.js",
-                lineNumber: 137,
+                lineNumber: 26,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/components/Body.js",
-        lineNumber: 134,
+        lineNumber: 23,
         columnNumber: 5
     }, this);
 }
@@ -26730,88 +26600,154 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 const Contact = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "contact-container",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                className: "contact-title",
-                children: "Contact Us"
-            }, void 0, false, {
-                fileName: "src/components/Contact.js",
-                lineNumber: 4,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                className: "contact-description",
-                children: [
-                    "We'd love to hear from you! Please fill out the form below or reach us at ",
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "mailto:support@example.com",
-                        className: "contact-email",
-                        children: "support@example.com"
-                    }, void 0, false, {
-                        fileName: "src/components/Contact.js",
-                        lineNumber: 6,
-                        columnNumber: 91
-                    }, undefined),
-                    "."
-                ]
-            }, void 0, true, {
-                fileName: "src/components/Contact.js",
-                lineNumber: 5,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
-                className: "contact-form",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                        type: "text",
-                        placeholder: "Your Name",
-                        className: "contact-input",
-                        required: true
-                    }, void 0, false, {
-                        fileName: "src/components/Contact.js",
-                        lineNumber: 9,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                        type: "email",
-                        placeholder: "Your Email",
-                        className: "contact-input",
-                        required: true
-                    }, void 0, false, {
-                        fileName: "src/components/Contact.js",
-                        lineNumber: 10,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
-                        placeholder: "Your Message",
-                        className: "contact-textarea",
-                        required: true
-                    }, void 0, false, {
-                        fileName: "src/components/Contact.js",
-                        lineNumber: 11,
-                        columnNumber: 17
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        type: "submit",
-                        className: "contact-button",
-                        children: "Send Message"
-                    }, void 0, false, {
-                        fileName: "src/components/Contact.js",
-                        lineNumber: 12,
-                        columnNumber: 17
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/Contact.js",
-                lineNumber: 8,
-                columnNumber: 13
-            }, undefined)
-        ]
-    }, void 0, true, {
+        className: "min-h-screen bg-gradient-to-b from-green-100 to-green-200 flex justify-center items-center p-8",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "w-full max-w-3xl bg-white rounded-3xl shadow-lg p-10 transition-transform transform hover:scale-105",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    className: "text-5xl font-extrabold text-green-700 text-center mb-6",
+                    children: "Contact Us"
+                }, void 0, false, {
+                    fileName: "src/components/Contact.js",
+                    lineNumber: 7,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    className: "text-lg text-gray-600 text-center mb-8",
+                    children: [
+                        "We'd love to hear from you! Fill out the form below or reach us at",
+                        " ",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                            href: "mailto:support@example.com",
+                            className: "text-green-600 hover:text-green-800 transition",
+                            children: "support@example.com"
+                        }, void 0, false, {
+                            fileName: "src/components/Contact.js",
+                            lineNumber: 12,
+                            columnNumber: 11
+                        }, undefined),
+                        "."
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Contact.js",
+                    lineNumber: 10,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                    className: "grid grid-cols-1 gap-6",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "flex flex-col",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                    className: "text-gray-700 font-medium",
+                                    children: "Your Name"
+                                }, void 0, false, {
+                                    fileName: "src/components/Contact.js",
+                                    lineNumber: 24,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                    type: "text",
+                                    placeholder: "John Doe",
+                                    className: "w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition",
+                                    required: true
+                                }, void 0, false, {
+                                    fileName: "src/components/Contact.js",
+                                    lineNumber: 25,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Contact.js",
+                            lineNumber: 23,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "flex flex-col",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                    className: "text-gray-700 font-medium",
+                                    children: "Your Email"
+                                }, void 0, false, {
+                                    fileName: "src/components/Contact.js",
+                                    lineNumber: 34,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                    type: "email",
+                                    placeholder: "john.doe@example.com",
+                                    className: "w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition",
+                                    required: true
+                                }, void 0, false, {
+                                    fileName: "src/components/Contact.js",
+                                    lineNumber: 35,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Contact.js",
+                            lineNumber: 33,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "flex flex-col",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                    className: "text-gray-700 font-medium",
+                                    children: "Your Message"
+                                }, void 0, false, {
+                                    fileName: "src/components/Contact.js",
+                                    lineNumber: 44,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
+                                    placeholder: "Write your message here...",
+                                    className: "w-full p-4 h-40 border border-gray-300 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-green-500 transition",
+                                    required: true
+                                }, void 0, false, {
+                                    fileName: "src/components/Contact.js",
+                                    lineNumber: 45,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Contact.js",
+                            lineNumber: 43,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "text-center",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                type: "submit",
+                                className: "w-full bg-green-600 text-white font-bold py-4 rounded-lg shadow-lg hover:bg-green-700 transition-transform transform hover:scale-105",
+                                children: "Send Message"
+                            }, void 0, false, {
+                                fileName: "src/components/Contact.js",
+                                lineNumber: 54,
+                                columnNumber: 13
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/Contact.js",
+                            lineNumber: 53,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/Contact.js",
+                    lineNumber: 22,
+                    columnNumber: 9
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/Contact.js",
+            lineNumber: 4,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
         fileName: "src/components/Contact.js",
         lineNumber: 3,
-        columnNumber: 9
+        columnNumber: 5
     }, undefined);
 };
 _c = Contact;
@@ -26972,57 +26908,125 @@ const items = [
         id: 1,
         name: "Coconut Laddu",
         image: (0, _coconutLadduJpegDefault.default),
-        price: "\u20B9250",
-        description: "A delicious coconut-based sweet.",
-        ingredients: "Coconut, Sugar, Ghee, Cardamom"
+        price: "\u20B9450/500g",
+        description: {
+            ingredients: [
+                "Dry coconut, almonds, walnuts, raisins, peanut seeds, jaggery, makhana, cashews, pumpkin seeds, sunflower seeds, cardamom, khaskhas, and Amul ghee."
+            ],
+            features: [
+                "No added flavor or sugar.",
+                "No preservatives.",
+                "Prepared under full hygiene.",
+                "Completely pure and healthy.",
+                "All ingredients are natural and delicious."
+            ]
+        }
     },
     {
         id: 2,
         name: "Dry Fruits Laddu",
         image: (0, _dryFruitsLadduJpegDefault.default),
-        price: "\u20B9350",
-        description: "Laddu packed with nutritious dry fruits.",
-        ingredients: "Almonds, Cashews, Dates, Ghee"
+        price: "\u20B9849/500g",
+        description: {
+            ingredients: [
+                "Almonds, dates, walnuts, cashews, raisins, coconut, pumpkin seeds, sunflower seeds, watermelon seeds, cucumber seeds, makhana, khaskhas, cardamom, pistachios, and Amul ghee."
+            ],
+            features: [
+                "Completely pure and healthy.",
+                "All dry fruits used are natural and delicious.",
+                "The use of Amul ghee gives this laddu a special flavor and aroma.",
+                "An ideal sweet treat that will take your taste buds to a new level."
+            ]
+        }
     },
     {
         id: 3,
         name: "Gond Laddu",
         image: (0, _gondLadduJpegDefault.default),
-        price: "\u20B9300",
-        description: "Traditional winter delicacy made with edible gum.",
-        ingredients: "Gond, Wheat Flour, Jaggery, Ghee"
+        price: "\u20B9800/500g",
+        description: {
+            ingredients: [
+                "Gond, walnuts, cashews, makhana, coconut burada, almonds, raisins, khaskhas, magaj seeds, watermelon seeds, sunflower seeds, pumpkin seeds, cardamom powder, ginger powder, wheat flour, gram flour, Amul ghee, and jaggery."
+            ],
+            features: [
+                "No added flavor or sugar.",
+                "No preservatives.",
+                "Prepared under full hygiene.",
+                "Completely pure and healthy.",
+                "All ingredients are natural and delicious."
+            ]
+        }
     },
     {
         id: 4,
         name: "Mawa Gujiya",
         image: (0, _mawaGujiyaJpegDefault.default),
-        price: "\u20B9400",
-        description: "A crispy, sweet dumpling filled with mawa and dry fruits.",
-        ingredients: "Mawa, Sugar, Flour, Nuts"
+        price: "\u20B9400/500g",
+        description: {
+            ingredients: [
+                "Homemade khoya, dry fruits, minimal sugar.",
+                "Fried in branded refined oil, giving it a crispy and golden color."
+            ],
+            features: [
+                "Each piece is wrapped by hand, not by machine, providing a personal touch.",
+                "No added flavor or color, making it natural and healthy.",
+                "No preservatives, making it fresh and safe.",
+                "Prepared under full hygiene."
+            ]
+        }
     },
     {
         id: 5,
         name: "Methi Mathri",
         image: (0, _methiMathriJpegDefault.default),
-        price: "\u20B9180",
-        description: "Savory and crispy fenugreek-flavored mathri.",
-        ingredients: "Wheat Flour, Methi, Salt, Ghee"
+        price: "\u20B9200/500g",
+        description: {
+            ingredients: [
+                "Fenugreek, wheat flour, and traditional Indian spices."
+            ],
+            features: [
+                "Crispy and savory snack.",
+                "Perfect with tea or as a festive treat.",
+                "Handmade with care.",
+                "No preservatives."
+            ]
+        }
     },
     {
         id: 6,
         name: "Mirch Achaar",
         image: (0, _mirchAchaarJpegDefault.default),
-        price: "\u20B9150",
-        description: "Spicy and tangy chili pickle.",
-        ingredients: "Green Chili, Mustard Seeds, Oil, Spices"
+        price: "\u20B9850/1kg",
+        description: {
+            ingredients: [
+                "Yellow mustard seeds, coriander, cumin, fenugreek, ajwain, mangrail, fennel, amchur powder, black salt, mustard oil."
+            ],
+            features: [
+                "Pure recipe from Grandma\u2019s kitchen.",
+                "Full of traditional Indian flavor.",
+                "No added flavor or color.",
+                "No preservatives.",
+                "Prepared under full hygiene."
+            ]
+        }
     },
     {
         id: 7,
         name: "Murmure Laddu",
         image: (0, _murmureLadduJpegDefault.default),
         price: "\u20B9220",
-        description: "Puffed rice laddu with jaggery.",
-        ingredients: "Puffed Rice, Jaggery, Ghee"
+        description: {
+            ingredients: [
+                "Jaggery, murmure (puffed rice), sesame seeds, ginger powder."
+            ],
+            features: [
+                "Prepared by traditional method.",
+                "No added flavor, color, or sugar.",
+                "No preservatives.",
+                "Prepared with proper hygiene.",
+                "Completely pure and healthy."
+            ]
+        }
     }
 ];
 function ProductDetail() {
@@ -27034,28 +27038,38 @@ function ProductDetail() {
         children: "Product Not Found"
     }, void 0, false, {
         fileName: "src/components/ProductDetail.js",
-        lineNumber: 26,
+        lineNumber: 143,
         columnNumber: 12
     }, this);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "max-w-5xl mx-auto p-8",
+        className: "max-w-5xl ml-8 p-8 min-h-screen",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             className: "flex flex-col md:flex-row items-center md:items-start gap-8",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "md:w-1/2",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: product.image,
-                        alt: product.name,
-                        className: "w-full h-96 object-cover rounded-lg shadow-lg"
-                    }, void 0, false, {
-                        fileName: "src/components/ProductDetail.js",
-                        lineNumber: 34,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: product.image,
+                            alt: product.name,
+                            className: "w-full h-96 object-cover rounded-lg shadow-lg"
+                        }, void 0, false, {
+                            fileName: "src/components/ProductDetail.js",
+                            lineNumber: 151,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            className: "mt-8 px-6 py-3 bg-green-600 text-white rounded-lg shadow-md hover:bg-green-700 transition-transform transform hover:scale-105",
+                            children: "Add to Cart"
+                        }, void 0, false, {
+                            fileName: "src/components/ProductDetail.js",
+                            lineNumber: 158,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
                     fileName: "src/components/ProductDetail.js",
-                    lineNumber: 33,
+                    lineNumber: 150,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27066,15 +27080,7 @@ function ProductDetail() {
                             children: product.name
                         }, void 0, false, {
                             fileName: "src/components/ProductDetail.js",
-                            lineNumber: 43,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            className: "text-lg text-gray-600 mt-2",
-                            children: product.description
-                        }, void 0, false, {
-                            fileName: "src/components/ProductDetail.js",
-                            lineNumber: 44,
+                            lineNumber: 166,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27082,50 +27088,86 @@ function ProductDetail() {
                             children: product.price
                         }, void 0, false, {
                             fileName: "src/components/ProductDetail.js",
-                            lineNumber: 47,
+                            lineNumber: 167,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            className: "text-gray-700 mt-3",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "mt-6",
                             children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                    className: "text-xl font-bold text-green-600",
                                     children: "Ingredients:"
                                 }, void 0, false, {
                                     fileName: "src/components/ProductDetail.js",
-                                    lineNumber: 51,
+                                    lineNumber: 171,
                                     columnNumber: 13
                                 }, this),
-                                " ",
-                                product.ingredients
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                    className: "list-disc list-inside text-gray-700 mt-2",
+                                    children: product.description.ingredients.map((ingredient, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                            children: ingredient
+                                        }, index, false, {
+                                            fileName: "src/components/ProductDetail.js",
+                                            lineNumber: 174,
+                                            columnNumber: 17
+                                        }, this))
+                                }, void 0, false, {
+                                    fileName: "src/components/ProductDetail.js",
+                                    lineNumber: 172,
+                                    columnNumber: 13
+                                }, this)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/ProductDetail.js",
-                            lineNumber: 50,
+                            lineNumber: 170,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                            className: "mt-6 px-6 py-3 bg-green-600 text-white rounded-lg shadow-md hover:bg-green-700 transition-transform transform hover:scale-105",
-                            children: "Add to Cart"
-                        }, void 0, false, {
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "mt-6",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                    className: "text-xl font-bold text-green-600",
+                                    children: "Features:"
+                                }, void 0, false, {
+                                    fileName: "src/components/ProductDetail.js",
+                                    lineNumber: 181,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                    className: "list-disc list-inside text-gray-700 mt-2",
+                                    children: product.description.features.map((feature, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                            children: feature
+                                        }, index, false, {
+                                            fileName: "src/components/ProductDetail.js",
+                                            lineNumber: 184,
+                                            columnNumber: 17
+                                        }, this))
+                                }, void 0, false, {
+                                    fileName: "src/components/ProductDetail.js",
+                                    lineNumber: 182,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "src/components/ProductDetail.js",
-                            lineNumber: 55,
+                            lineNumber: 180,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/ProductDetail.js",
-                    lineNumber: 42,
+                    lineNumber: 165,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/components/ProductDetail.js",
-            lineNumber: 31,
+            lineNumber: 148,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "src/components/ProductDetail.js",
-        lineNumber: 30,
+        lineNumber: 147,
         columnNumber: 5
     }, this);
 }
